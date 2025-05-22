@@ -2,7 +2,7 @@ from flask import Flask, request
 from telegram import Update
 from telegram.ext import Application, MessageHandler, CallbackQueryHandler, filters
 from main_logic import handle_new_post, handle_callback  # تو این فایل تابع‌ها باید تعریف شده باشن
-
+import os
 # تنظیمات ثابت
 TOKEN = "7908277919:AAHNhrZgRpdPj5LdX5lI0Chx8u4L4VjgO2w"
 WEBHOOK_URL = "https://taranome.onrender.com"
